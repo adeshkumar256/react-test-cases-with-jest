@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Welcome from "../../../src/components/welcome/Welcome";
+import Welcome from "../../../components/welcome/Welcome";
 
 //describe is used to group test cases
 describe("Welcome", () => {

@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Greet from "../../../src/components/greet/Greet";
+import Greet from "../../../components/greet/Greet";
 
 test("Greet render successfully", () => {
   render(<Greet />); //create virtual dome using render
