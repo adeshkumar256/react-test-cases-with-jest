@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 type Skill = {
-  skills: string[];
-};
+  skills: string[]
+}
 export default function Skills(props: Skill) {
-  const [login, setLogin] = useState(false);
+  const [login, setLogin] = useState(false)
   return (
     <div>
       <ul>
@@ -15,5 +15,5 @@ export default function Skills(props: Skill) {
         <button onClick={() => setLogin(true)}>Login</button>
       )}
     </div>
-  );
+  )
 }

@@ -125,6 +125,12 @@ module.exports = {
  
   // Indicates whether each individual test should be reported during the run
   verbose: true,
+  transform: {
+   // Transform ts, tsx, and js files using babel-jest
+   '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
+   // Transform text-encoding package
+   '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
+ },
  
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],

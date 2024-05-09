@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react'
 type Skill = {
-  skills: string[];
-};
+  skills: string[]
+}
 export default function FindBy(props: Skill) {
-  const [login, setLogin] = useState(true);
+  const [login, setLogin] = useState(true)
   useEffect(() => {
     setTimeout(() => {
-      setLogin(true);
-    }, 500);
-  }, []);
+      setLogin(true)
+    }, 500)
+  }, [])
   return (
     <div>
       <ul>
@@ -20,5 +20,5 @@ export default function FindBy(props: Skill) {
         <button onClick={() => setLogin(true)}>Login</button>
       )}
     </div>
-  );
+  )
 }

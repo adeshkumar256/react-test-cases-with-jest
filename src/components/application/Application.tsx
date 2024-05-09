@@ -1,4 +1,4 @@
-import logo from "../../logo.svg";
+import logo from '../../logo.svg'
 
 function Application() {
   return (
@@ -48,7 +48,7 @@ function Application() {
 
       <button>Submit</button>
     </form>
-  );
+  )
 }
 
-export default Application;
+export default Application
